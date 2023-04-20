@@ -1,4 +1,7 @@
 
+[![Build Status](https://github.com/leakyabstractions/result-bom/workflows/Build/badge.svg)](https://github.com/LeakyAbstractions/result-bom/actions?query=workflow%3ABuild)
+[![Maven Central](https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-bom/badge.json&logo=java&label=maven-central&labelColor=555)](https://search.maven.org/artifact/com.leakyabstractions/result-bom)
+
 # Result Library BOM (Bill of Materials)
 
 This project contains [Bill of Materials (BOM) POM][BILL_OF_MATERIALS] for
@@ -49,69 +52,75 @@ dependencies {
 ```
 
 
-## Jackson Versioning
+## Releases
 
-### Semantic Versioning
+This library adheres to [Pragmatic Versioning](https://pragver.github.io/).
 
-Jackson tries to follow [Semantic Versioning](https://en.wikipedia.org/wiki/Software_versioning#Semantic_versioning) (aka "SemVer")
-for its Public API; public methods of types like `ObjectMapper` and `JsonFactory` that calling applications need.
-This means that code written against Jackson 2.0.0 that only uses Public API should still work with no changes with Jackson 2.14.0.
+Artifacts are available in [Maven Central](https://search.maven.org/artifact/com.leakyabstractions/result).
 
-Semantic versioning is, however, NOT guaranteed for types considered internal, and in particular customizations by sub-classing is not covered by same guarantees.
-In case of Internal API (extension points meant for Jackson core components) Jackson will still try to guarantee compatibility with "adjacent" minor versions: that is, code written against Jackson 2.9.0 should still work against Jackson 2.10.x (and in many cases further, but at least with the "next version").
-Deprecation markers are added for internal methods and types where necessary so that if no deprecation warnings are encountered, code should work for next two minor versions.
 
-It is understood that the distinction between "Public" and "Internal" APIs is not always easy to distinguish; Javadocs are used in places to try to make distinction clear.
+## Javadoc
 
-Having said all that, for most users and most usage Semantic Versioning is maintained.
+Here you can find the full [Result API documentation](https://dev.leakyabstractions.com/result/javadoc/).
 
-### "Normal" minor version releases
 
-Most of the time all Jackson components are released using 3-digit version, like `2.14.0`.
-If so, there will be, for this version:
+## Looking for Support?
 
-1. A full set of all core Jackson components under `FasterXML` Github organization
-2. Matching `jackson-bom`
+We'd love to help. Check out the [support guidelines](https://dev.leakyabstractions.com/result/SUPPORT.html).
 
-But occasionally there is a need for a "hot fix" -- usually a fix to a security issue (aka "CVE") --
-either in-between "full minor releases" or after specific branch has been closed for active
-development. In such cases a version of only component affected (most often `jackson-databind`)
-is released and there is no full set of components.
-Version number will, in such cases, consist of 4 digits like [jackson-databind-2.12.6.1](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.12.6.1).
-Note: the reason for NOT releasing a full set in such cases is both due to effort needed (full set takes multiple hours to release in the optimal case) and to avoid having multiple full sets with very few changes.
 
-Because there is no full set of `2.12.6.1` components -- and there may be 1 or more components with `2.12.6.1` (or we may have `2.12.6.2` and so on), it is not practical to release BOM with that version (both since there may be various numbers of micro-patches over time, and since assumption by users could be there IS a full set), a different version convention is used for these case: use of datestamp version.
+## Contributions Welcome
 
-As the specific example, `jackson-databind` `2.12.6.1` was released on March 26, 2022, and so the matching bom is [jackson-bom-2.12.6.20220326](https://mvnrepository.com/artifact/com.fasterxml.jackson/jackson-bom/2.12.6.20220326). Some users dislike this longer notation, but it has some specific benefits:
+If you'd like to contribute to this project, please [start here](https://dev.leakyabstractions.com/result/CONTRIBUTING.html).
 
-* Version numbers will sort appropriately: `2.12.6.20220326` comes after both `2.12.6` and hypothetical `2.12.6.1`
-* Version number gives an idea of release date, wrt time of hot fix(es) included
 
-## Secondary: "base" sub-project
+## Code of Conduct
 
-Note that this repo ALSO contains `jackson-base` (see under dir `base/`), which is the intended
-parent pom for Jackson core components.
-It extends `jackson-bom`, augmenting with settings that
-are only/mostly relevant for Jackson components, but not to things that depend on Jackson in general.
-Use of `jackson-base` is not recommended for libraries that are not meant to be coupled with Jackson
-release cycle and settings.
+This project is governed by the
+[Contributor Covenant Code of Conduct](https://dev.leakyabstractions.com/result/CODE_OF_CONDUCT.html).
+By participating, you are expected to uphold this code.
 
-## Support
 
-### Community support
+## Author
 
-Jackson components are supported by the Jackson community through mailing lists, Gitter forum,
-Github issues. See [Participation, Contributing](../../../jackson#participation-contributing)
-for full details.
+Copyright 2023 [Guillermo Calvo](https://github.com/guillermocalvo)
 
-### Enterprise support
+[![](https://guillermo.dev/assets/images/thumb.png)](https://guillermo.dev/)
 
-Available as part of the [Tidelift](https://tidelift.com/subscription/pkg/maven-com-fasterxml-jackson-jackson-bom) Subscription.
 
-The maintainers of `jackson-bom` and thousands of other packages are working with Tidelift to deliver
-commercial support and maintenance for the open source dependencies you use to build your applications.
-Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies
-you use.
+## License
+
+This library is licensed under the *Apache License, Version 2.0* (the "License");
+you may not use it except in compliance with the License.
+
+You may obtain a copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an
+"AS IS" BASIS, **WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND**, either express or implied.
+
+See the License for the specific language governing permissions and limitations under the License.
+
+
+### Permitted
+
+- **Commercial Use**: You may use this library and derivatives for commercial purposes.
+- **Modification**: You may modify this library.
+- **Distribution**: You may distribute this library.
+- **Patent Use**: This license provides an express grant of patent rights from contributors.
+- **Private Use**: You may use and modify this library without distributing it.
+
+### Required
+
+- **License and Copyright Notice**: If you distribute this library you must include a copy of the license and copyright
+  notice.
+- **State Changes**: If you modify and distribute this library you must document changes made to this library.
+
+### Forbidden
+
+- **Trademark use**: This license does not grant any trademark rights.
+- **Liability**: The library author cannot be held liable for damages.
+- **Warranty**: This library is provided without any warranty.
+
 
 [BILL_OF_MATERIALS]: https://reflectoring.io/maven-bom/
 [RESULT_LIBRARY]: https://dev.leakyabstractions.com/result/
