@@ -1,21 +1,56 @@
-
-[![Build Status][BADGE_BUILD_STATUS]][BUILD_STATUS]
-[![Maven Central][BADGE_ARTIFACTS]][ARTIFACTS]
-[![Latest Release][BADGE_LATEST_RELEASE]][LATEST_RELEASE]
+---
+title: Result Library BOM
+description: Bill of Materials for Result libraries
+image: https://dev.leakyabstractions.com/result/result-magic-ball.png
+---
 
 # Result Library BOM
 
-This project contains [Bill of Materials (BOM) POM][BILL_OF_MATERIALS] for [Result libraries][RESULT], which is a
-special POM file that groups dependency versions that are known to be valid and tested to work together, reducing the
+This project contains [Bill of Materials (BOM) POM][BILL_OF_MATERIALS] for [Result libraries][RESULT_LIBRARY], which is
+a special POM file that groups dependency versions that are known to be valid and tested to work together, reducing the
 chances to have version mismatches.
 
 The basic idea is that, instead of specifying a version number for every Result library that you want to use in your
 project, you can use this BOM POM to get a full set of consistent versions to use.
 
 
-## Getting Started
+## Adding Resul BOM to Your Build
 
-Please read the [Quick Guide][QUICK_GUIDE] to know how to add this POM to your build.
+Artifact coordinates:
+
+- Group ID: `com.leakyabstractions`
+- Artifact ID: `result-bom`
+- Version: `{{ site.current_version }}`
+
+To [import the BOM using Maven][MAVEN_IMPORT_BOM], use the following:
+
+```xml
+<dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.leakyabstractions</groupId>
+      <artifactId>result-bom</artifactId>
+      <version>{{ site.current_version }}</version>
+      <scope>import</scope>
+      <type>pom</type>
+    </dependency>   
+  </dependencies>
+</dependencyManagement>
+```
+
+To [import the BOM using Gradle][GRADLE_IMPORT_BOM], use the following:
+
+```gradle
+dependencies {
+    // Import the BOM
+    implementation platform('com.leakyabstractions:result-bom:{{ site.current_version }}')
+
+    // Define dependencies without version numbers
+    implementation 'com.leakyabstractions:result'
+    implementation 'com.leakyabstractions:result-jackson'
+    testImplementation 'com.leakyabstractions:result-assertj'
+}
+```
 
 
 ## Releases
@@ -89,11 +124,7 @@ See the License for the specific language governing permissions and limitations 
 
 [ARTIFACTS]:                    https://search.maven.org/artifact/com.leakyabstractions/result-bom/
 [AUTHOR]:                       https://github.com/guillermocalvo/
-[BADGE_ARTIFACTS]:              https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-bom/badge.json&logo=java&label=maven-central&labelColor=555
-[BADGE_BUILD_STATUS]:           https://github.com/leakyabstractions/result-bom/workflows/Build/badge.svg
-[BADGE_LATEST_RELEASE]:         https://img.shields.io/github/release/leakyabstractions/result-bom.svg?logo=github
 [BILL_OF_MATERIALS]:            https://reflectoring.io/maven-bom/
-[BUILD_STATUS]:                 https://github.com/LeakyAbstractions/result-bom/actions?query=workflow%3ABuild
 [CODE_OF_CONDUCT]:              https://dev.leakyabstractions.com/result/CODE_OF_CONDUCT.html
 [CONTRIBUTING]:                 https://dev.leakyabstractions.com/result/CONTRIBUTING.html
 [GRADLE_IMPORT_BOM]:            https://docs.gradle.org/current/userguide/platforms.html#sub:bom_import
@@ -101,8 +132,6 @@ See the License for the specific language governing permissions and limitations 
 [GUILLERMO_IMAGE]:              https://guillermo.dev/assets/images/thumb.png
 [JAVADOC]:                      https://dev.leakyabstractions.com/result/javadoc/
 [MAVEN_IMPORT_BOM]:             https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#bill-of-materials-bom-poms
-[LATEST_RELEASE]:               https://github.com/leakyabstractions/result-bom/releases/latest
 [PRAGVER]:                      https://pragver.github.io/
-[QUICK_GUIDE]:                  https://dev.leakyabstractions.com/result-bom/
-[RESULT]:                       https://dev.leakyabstractions.com/result/
+[RESULT_LIBRARY]:               https://dev.leakyabstractions.com/result/
 [SUPPORT]:                      https://dev.leakyabstractions.com/result/SUPPORT.html
