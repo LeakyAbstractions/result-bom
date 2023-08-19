@@ -14,7 +14,7 @@ The basic idea is that, instead of specifying a version number for every Result 
 project, you can use this BOM POM to get a full set of consistent versions to use.
 
 
-## Adding Resul BOM to Your Build
+## Adding Result BOM to Your Build
 
 Artifact coordinates:
 
