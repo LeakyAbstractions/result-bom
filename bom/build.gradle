@@ -6,7 +6,7 @@ plugins {
 
 dependencies {
     constraints {
-        api libs.result
+        api libs.result.core
         api libs.result.assertj
         api libs.result.jackson
         api libs.result.lazy
@@ -64,10 +64,10 @@ publishing {
                     connection  = rootProject.checkout
                 }
                 properties = [
-                    "result.version":         "0.14.1.2",
-                    "result.assertj.version": "0.8.0.0",
-                    "result.jackson.version": "0.6.1.1",
-                    "result.lazy.version":    "0.5.0.2"
+                    "result.core.version":    libs.versions.result.core.get(),
+                    "result.assertj.version": libs.versions.result.assertj.get(),
+                    "result.jackson.version": libs.versions.result.jackson.get(),
+                    "result.lazy.version":    libs.versions.result.lazy.get(),
                 ]
             }
             from(components.javaPlatform)

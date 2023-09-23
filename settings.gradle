@@ -10,3 +10,11 @@
 
 rootProject.name = 'result-bom'
 include('bom')
+
+dependencyResolutionManagement {
+    versionCatalogs {
+        libs {
+            from(files("./gradle/result.versions.toml"))
+        }
+    }
+}
