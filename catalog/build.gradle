@@ -1,16 +1,7 @@
 plugins {
-    id 'java-platform'
     id 'maven-publish'
+    id 'version-catalog'
     id 'signing'
-}
-
-dependencies {
-    constraints {
-        api libs.result.core
-        api libs.result.assertj
-        api libs.result.jackson
-        api libs.result.lazy
-    }
 }
 
 // Configure publishing repositories and publications
@@ -63,15 +54,15 @@ publishing {
                     url         = rootProject.repository
                     connection  = rootProject.checkout
                 }
-                properties = [
-                    "result.core.version":    libs.versions.result.core.get(),
-                    "result.assertj.version": libs.versions.result.assertj.get(),
-                    "result.jackson.version": libs.versions.result.jackson.get(),
-                    "result.lazy.version":    libs.versions.result.lazy.get(),
-                ]
             }
-            from(components.javaPlatform)
+            from(components.versionCatalog)
         }
+    }
+}
+
+catalog {
+    versionCatalog {
+        from(files("../gradle/result.versions.toml"))
     }
 }
 
