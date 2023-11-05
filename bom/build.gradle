@@ -64,6 +64,7 @@ publishing {
                     connection  = rootProject.checkout
                 }
                 properties = [
+                    "result.api.version":     libs.versions.result.api.get(),
                     "result.core.version":    libs.versions.result.core.get(),
                     "result.assertj.version": libs.versions.result.assertj.get(),
                     "result.jackson.version": libs.versions.result.jackson.get(),
