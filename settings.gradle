@@ -1,6 +1,6 @@
 
-rootProject.name = 'result-bom'
-include('bom')
+rootProject.name = 'result-bom-root'
+include('result-bom')
 include('catalog')
 
 dependencyResolutionManagement {
