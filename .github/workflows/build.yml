@@ -26,6 +26,12 @@ jobs:
       uses: actions/checkout@v4
 
     # ================================
+    # VALIDATE GRADLE WRAPPER
+    # ================================
+    - name: Validate Gradle Wrapper files
+      uses: gradle/actions/wrapper-validation@v3
+
+    # ================================
     # SET UP JDK
     # ================================
     - name: Set up JDK
