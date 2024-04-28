@@ -1,9 +1,9 @@
 [versions]
-result-api     = "0.1.0.3"
-result-assertj = "0.9.1.0"
+result-api     = "0.1.0.4"
+result-assertj = "0.9.1.1"
 result-core    = "0.15.0.0"
 result-jackson = "0.8.0.2"
-result-lazy    = "0.6.0.0"
+result-lazy    = "0.6.0.1"
 
 [libraries]
 result-api     = { module = "com.leakyabstractions:result-api",     version.ref = "result-api"     }

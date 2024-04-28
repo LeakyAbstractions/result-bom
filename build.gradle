@@ -1,5 +1,5 @@
 plugins {
-    id "io.github.gradle-nexus.publish-plugin" version "2.0.0-rc-2"
+    id "io.github.gradle-nexus.publish-plugin" version "2.0.0"
 }
 
 // Configure Gradle Nexus Publish Plugin publishing repository
@@ -13,22 +13,5 @@ if (project.hasProperty('sonatypeUsername') && project.hasProperty('sonatypePass
                 stagingProfileId = project.findProperty('sonatypeStagingProfileId')
             }
         }
-    }
-}
-
-if (hasProperty('buildScan')) {
-    buildScan {
-        termsOfServiceUrl = 'https://gradle.com/terms-of-service'
-        termsOfServiceAgree = 'yes'
-    }
-}
-
-/**
- * Print project property by key
- * - Usage: `./gradlew -q printProperty -Pkey=description`
- */
-task printProperty {
-    doLast {
-        printf project[project.key]
     }
 }

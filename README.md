@@ -2,6 +2,7 @@
 [![Build Status][BADGE_BUILD_STATUS]][BUILD_STATUS]
 [![Maven Central][BADGE_ARTIFACTS]][ARTIFACTS]
 [![Latest Release][BADGE_LATEST_RELEASE]][LATEST_RELEASE]
+[![License][BADGE_LICENSE]][LICENSE]
 
 # Result Library BOM
 
@@ -92,6 +93,7 @@ See the License for the specific language governing permissions and limitations 
 [BADGE_ARTIFACTS]:              https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-bom/badge.json&logo=java&label=maven-central&labelColor=555
 [BADGE_BUILD_STATUS]:           https://github.com/leakyabstractions/result-bom/workflows/Build/badge.svg
 [BADGE_LATEST_RELEASE]:         https://img.shields.io/github/release/leakyabstractions/result-bom.svg?logo=github
+[BADGE_LICENSE]:                https://img.shields.io/github/license/LeakyAbstractions/result-bom
 [BILL_OF_MATERIALS]:            https://reflectoring.io/maven-bom/
 [BUILD_STATUS]:                 https://github.com/LeakyAbstractions/result-bom/actions?query=workflow%3ABuild
 [CODE_OF_CONDUCT]:              https://dev.leakyabstractions.com/result/CODE_OF_CONDUCT.html
@@ -102,6 +104,7 @@ See the License for the specific language governing permissions and limitations 
 [JAVADOC]:                      https://dev.leakyabstractions.com/result/javadoc/
 [MAVEN_IMPORT_BOM]:             https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#bill-of-materials-bom-poms
 [LATEST_RELEASE]:               https://github.com/leakyabstractions/result-bom/releases/latest
+[LICENSE]:                      #license
 [PRAGVER]:                      https://pragver.github.io/
 [QUICK_GUIDE]:                  https://dev.leakyabstractions.com/result-bom/
 [RESULT]:                       https://dev.leakyabstractions.com/result/
