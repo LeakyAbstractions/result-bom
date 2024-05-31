@@ -13,6 +13,13 @@ chances to have version mismatches.
 The basic idea is that, instead of specifying a version number for every Result library that you want to use in your
 project, you can use this BOM POM to get a full set of consistent versions to use.
 
+- [![result][BADGE_RESULT_CORE]][RESULT_CORE]
+- [![result-api][BADGE_RESULT_API]][RESULT_API]
+- [![result-assertj][BADGE_RESULT_ASSERTJ]][RESULT_ASSERTJ]
+- [![result-jackson][BADGE_RESULT_JACKSON]][RESULT_JACKSON]
+- [![result-mnserde][BADGE_RESULT_MNSERDE]][RESULT_MNSERDE]
+- [![result-lazy][BADGE_RESULT_LAZY]][RESULT_LAZY]
+
 
 ## Getting Started
 
@@ -94,6 +101,12 @@ See the License for the specific language governing permissions and limitations 
 [BADGE_BUILD_STATUS]:           https://github.com/leakyabstractions/result-bom/workflows/Build/badge.svg
 [BADGE_LATEST_RELEASE]:         https://img.shields.io/github/release/leakyabstractions/result-bom.svg?logo=github
 [BADGE_LICENSE]:                https://img.shields.io/github/license/LeakyAbstractions/result-bom
+[BADGE_RESULT_API]:             https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-api/badge.json&logo=0
+[BADGE_RESULT_ASSERTJ]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-assertj/badge.json&logo=0
+[BADGE_RESULT_CORE]:            https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result/badge.json&logo=0
+[BADGE_RESULT_JACKSON]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-jackson/badge.json&logo=0
+[BADGE_RESULT_MNSERDE]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-micronaut-serde/badge.json&logo=0
+[BADGE_RESULT_LAZY]:            https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-lazy/badge.json&logo=0
 [BILL_OF_MATERIALS]:            https://reflectoring.io/maven-bom/
 [BUILD_STATUS]:                 https://github.com/LeakyAbstractions/result-bom/actions?query=workflow%3ABuild
 [CODE_OF_CONDUCT]:              https://dev.leakyabstractions.com/result/CODE_OF_CONDUCT.html
@@ -108,4 +121,10 @@ See the License for the specific language governing permissions and limitations 
 [PRAGVER]:                      https://pragver.github.io/
 [QUICK_GUIDE]:                  https://dev.leakyabstractions.com/result-bom/
 [RESULT]:                       https://dev.leakyabstractions.com/result/
+[RESULT_API]:                   https://github.com/LeakyAbstractions/result-api/
+[RESULT_ASSERTJ]:               https://github.com/LeakyAbstractions/result-assertj/
+[RESULT_CORE]:                  https://github.com/LeakyAbstractions/result/
+[RESULT_JACKSON]:               https://github.com/LeakyAbstractions/result-jackson/
+[RESULT_MNSERDE]:               https://github.com/LeakyAbstractions/result-micronaut-serde/
+[RESULT_LAZY]:                  https://github.com/LeakyAbstractions/result-lazy/
 [SUPPORT]:                      https://dev.leakyabstractions.com/result/SUPPORT.html
