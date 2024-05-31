@@ -1,13 +1,15 @@
 [versions]
 result-api     = "0.1.0.4"
-result-assertj = "0.9.2.0"
-result-core    = "0.15.0.2"
-result-jackson = "0.8.0.3"
-result-lazy    = "0.6.0.1"
+result-assertj = "0.9.3.0"
+result-core    = "0.15.1.1"
+result-jackson = "0.8.1.0"
+result-mnserde = "0.1.0.0"
+result-lazy    = "0.6.1.0"
 
 [libraries]
 result-api     = { module = "com.leakyabstractions:result-api",     version.ref = "result-api"     }
 result-assertj = { module = "com.leakyabstractions:result-assertj", version.ref = "result-assertj" }
 result-core    = { module = "com.leakyabstractions:result",         version.ref = "result-core"    }
 result-jackson = { module = "com.leakyabstractions:result-jackson", version.ref = "result-jackson" }
+result-mnserde = { module = "com.leakyabstractions:result-lazy",    version.ref = "result-mnserde" }
 result-lazy    = { module = "com.leakyabstractions:result-lazy",    version.ref = "result-lazy"    }
