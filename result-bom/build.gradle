@@ -6,6 +6,7 @@ plugins {
 
 dependencies {
     constraints {
+        api libs.result.api
         api libs.result.core
         api libs.result.assertj
         api libs.result.jackson
