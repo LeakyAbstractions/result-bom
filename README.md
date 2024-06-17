@@ -17,8 +17,8 @@ project, you can use this BOM POM to get a full set of consistent versions to us
 - [![result-api][BADGE_RESULT_API]][RESULT_API]
 - [![result-assertj][BADGE_RESULT_ASSERTJ]][RESULT_ASSERTJ]
 - [![result-jackson][BADGE_RESULT_JACKSON]][RESULT_JACKSON]
-- [![result-mnserde][BADGE_RESULT_MNSERDE]][RESULT_MNSERDE]
 - [![result-lazy][BADGE_RESULT_LAZY]][RESULT_LAZY]
+- [![result-mnserde][BADGE_RESULT_MNSERDE]][RESULT_MNSERDE]
 
 
 ## Getting Started
