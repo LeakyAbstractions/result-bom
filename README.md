@@ -109,8 +109,8 @@ See the License for the specific language governing permissions and limitations 
 [BADGE_RESULT_LAZY]:            https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-lazy/badge.json&logo=0
 [BILL_OF_MATERIALS]:            https://reflectoring.io/maven-bom/
 [BUILD_STATUS]:                 https://github.com/LeakyAbstractions/result-bom/actions?query=workflow%3ABuild
-[CODE_OF_CONDUCT]:              https://dev.leakyabstractions.com/result/CODE_OF_CONDUCT.html
-[CONTRIBUTING]:                 https://dev.leakyabstractions.com/result/CONTRIBUTING.html
+[CODE_OF_CONDUCT]:              https://github.com/LeakyAbstractions/.github/blob/main/CODE_OF_CONDUCT.md
+[CONTRIBUTING]:                 https://github.com/LeakyAbstractions/.github/blob/main/CONTRIBUTING.md
 [GRADLE_IMPORT_BOM]:            https://docs.gradle.org/current/userguide/platforms.html#sub:bom_import
 [GUILLERMO]:                    https://guillermo.dev/
 [GUILLERMO_IMAGE]:              https://guillermo.dev/assets/images/thumb.png
@@ -127,4 +127,4 @@ See the License for the specific language governing permissions and limitations 
 [RESULT_JACKSON]:               https://github.com/LeakyAbstractions/result-jackson/
 [RESULT_MNSERDE]:               https://github.com/LeakyAbstractions/result-micronaut-serde/
 [RESULT_LAZY]:                  https://github.com/LeakyAbstractions/result-lazy/
-[SUPPORT]:                      https://dev.leakyabstractions.com/result/SUPPORT.html
+[SUPPORT]:                      https://github.com/LeakyAbstractions/.github/blob/main/SUPPORT.md
