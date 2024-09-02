@@ -4,3 +4,7 @@ description: Bill of Materials for Result libraries
 current_version: 0.3.4.1
 show_downloads: true
 logo: https://dev.leakyabstractions.com/result/result-banner.png
+exclude:
+  - gradle
+  - result-bom
+  - result-catalog
