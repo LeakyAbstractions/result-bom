@@ -1,7 +1,7 @@
 ---
 title: Result Library BOM
 description: Bill of Materials for Result libraries
-image: https://dev.leakyabstractions.com/result/result-magic-ball.png
+image: https://dev.leakyabstractions.com/result/result-banner.png
 ---
 
 # Result Library BOM
@@ -66,6 +66,11 @@ Artifacts are available in [Maven Central][ARTIFACTS].
 Here you can find the full [Javadoc documentation][JAVADOC].
 
 
+## Benchmarks
+
+You may want to visualize the latest [benchmark report][BENCHMARK].
+
+
 ## Looking for Support?
 
 We'd love to help. Check out the [support guidelines][SUPPORT].
@@ -125,6 +130,7 @@ See the License for the specific language governing permissions and limitations 
 
 [ARTIFACTS]:                    https://search.maven.org/artifact/com.leakyabstractions/result-bom/
 [AUTHOR]:                       https://github.com/guillermocalvo/
+[BENCHMARK]:                    https://dev.leakyabstractions.com/result-benchmark/
 [BILL_OF_MATERIALS]:            https://reflectoring.io/maven-bom/
 [CODE_OF_CONDUCT]:              https://dev.leakyabstractions.com/result/CODE_OF_CONDUCT.html
 [CONTRIBUTING]:                 https://dev.leakyabstractions.com/result/CONTRIBUTING.html

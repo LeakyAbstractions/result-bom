@@ -1,8 +1,8 @@
 
 [![Build Status][BADGE_BUILD_STATUS]][BUILD_STATUS]
+[![OpenSSF Best Practices][BADGE_BEST_PRACTICES]][BEST_PRACTICES]
 [![Maven Central][BADGE_ARTIFACTS]][ARTIFACTS]
-[![Latest Release][BADGE_LATEST_RELEASE]][LATEST_RELEASE]
-[![License][BADGE_LICENSE]][LICENSE]
+[![Benchmark Report][BADGE_BENCHMARK]][BENCHMARK]
 
 # Result Library BOM
 
@@ -17,13 +17,15 @@ project, you can use this BOM POM to get a full set of consistent versions to us
 - [![result-api][BADGE_RESULT_API]][RESULT_API]
 - [![result-assertj][BADGE_RESULT_ASSERTJ]][RESULT_ASSERTJ]
 - [![result-jackson][BADGE_RESULT_JACKSON]][RESULT_JACKSON]
-- [![result-mnserde][BADGE_RESULT_MNSERDE]][RESULT_MNSERDE]
 - [![result-lazy][BADGE_RESULT_LAZY]][RESULT_LAZY]
+- [![result-mnserde][BADGE_RESULT_MNSERDE]][RESULT_MNSERDE]
 
 
 ## Getting Started
 
 Please read the [Quick Guide][QUICK_GUIDE] to know how to add this POM to your build.
+
+Also available as an ebook in multiple formats. [Download your free copy now!][GUIDE_BOOK]
 
 
 ## Releases
@@ -36,6 +38,11 @@ Artifacts are available in [Maven Central][ARTIFACTS].
 ## Javadoc
 
 Here you can find the full [Javadoc documentation][JAVADOC].
+
+
+## Benchmarks
+
+You may want to visualize the latest [benchmark report][BENCHMARK].
 
 
 ## Looking for Support?
@@ -97,34 +104,36 @@ See the License for the specific language governing permissions and limitations 
 
 [ARTIFACTS]:                    https://search.maven.org/artifact/com.leakyabstractions/result-bom/
 [AUTHOR]:                       https://github.com/guillermocalvo/
-[BADGE_ARTIFACTS]:              https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-bom/badge.json&logo=java&label=maven-central&labelColor=555
+[BADGE_ARTIFACTS]:              https://img.shields.io/maven-central/v/com.leakyabstractions/result-bom
+[BADGE_BENCHMARK]:              https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-benchmark/badge.json&style=flat
+[BADGE_BEST_PRACTICES]:         https://www.bestpractices.dev/projects/8122/badge
 [BADGE_BUILD_STATUS]:           https://github.com/leakyabstractions/result-bom/workflows/Build/badge.svg
-[BADGE_LATEST_RELEASE]:         https://img.shields.io/github/release/leakyabstractions/result-bom.svg?logo=github
-[BADGE_LICENSE]:                https://img.shields.io/github/license/LeakyAbstractions/result-bom
+[BADGE_GUIDE_BOOK]:             https://img.shields.io/badge/Free_book-444?logo=leanpub
 [BADGE_RESULT_API]:             https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-api/badge.json&logo=0
 [BADGE_RESULT_ASSERTJ]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-assertj/badge.json&logo=0
 [BADGE_RESULT_CORE]:            https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result/badge.json&logo=0
 [BADGE_RESULT_JACKSON]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-jackson/badge.json&logo=0
-[BADGE_RESULT_MNSERDE]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-micronaut-serde/badge.json&logo=0
 [BADGE_RESULT_LAZY]:            https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-lazy/badge.json&logo=0
+[BADGE_RESULT_MNSERDE]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-micronaut-serde/badge.json&logo=0
+[BENCHMARK]:                    https://dev.leakyabstractions.com/result-benchmark/
+[BEST_PRACTICES]:               https://www.bestpractices.dev/projects/8122
 [BILL_OF_MATERIALS]:            https://reflectoring.io/maven-bom/
 [BUILD_STATUS]:                 https://github.com/LeakyAbstractions/result-bom/actions?query=workflow%3ABuild
-[CODE_OF_CONDUCT]:              https://dev.leakyabstractions.com/result/CODE_OF_CONDUCT.html
-[CONTRIBUTING]:                 https://dev.leakyabstractions.com/result/CONTRIBUTING.html
+[CODE_OF_CONDUCT]:              https://github.com/LeakyAbstractions/.github/blob/main/CODE_OF_CONDUCT.md
+[CONTRIBUTING]:                 https://github.com/LeakyAbstractions/.github/blob/main/CONTRIBUTING.md
 [GRADLE_IMPORT_BOM]:            https://docs.gradle.org/current/userguide/platforms.html#sub:bom_import
+[GUIDE_BOOK]:                   https://leanpub.com/result/
 [GUILLERMO]:                    https://guillermo.dev/
 [GUILLERMO_IMAGE]:              https://guillermo.dev/assets/images/thumb.png
 [JAVADOC]:                      https://dev.leakyabstractions.com/result/javadoc/
 [MAVEN_IMPORT_BOM]:             https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#bill-of-materials-bom-poms
-[LATEST_RELEASE]:               https://github.com/leakyabstractions/result-bom/releases/latest
-[LICENSE]:                      #license
 [PRAGVER]:                      https://pragver.github.io/
-[QUICK_GUIDE]:                  https://dev.leakyabstractions.com/result-bom/
+[QUICK_GUIDE]:                  https://result.leakyabstractions.com/docs/start/adding-dependency
 [RESULT]:                       https://dev.leakyabstractions.com/result/
 [RESULT_API]:                   https://github.com/LeakyAbstractions/result-api/
 [RESULT_ASSERTJ]:               https://github.com/LeakyAbstractions/result-assertj/
 [RESULT_CORE]:                  https://github.com/LeakyAbstractions/result/
 [RESULT_JACKSON]:               https://github.com/LeakyAbstractions/result-jackson/
-[RESULT_MNSERDE]:               https://github.com/LeakyAbstractions/result-micronaut-serde/
 [RESULT_LAZY]:                  https://github.com/LeakyAbstractions/result-lazy/
-[SUPPORT]:                      https://dev.leakyabstractions.com/result/SUPPORT.html
+[RESULT_MNSERDE]:               https://github.com/LeakyAbstractions/result-micronaut-serde/
+[SUPPORT]:                      https://github.com/LeakyAbstractions/.github/blob/main/SUPPORT.md
