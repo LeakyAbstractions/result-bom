@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spec/1.0.0.0.html).
 
 
-## Unreleased
+## [1.0.0.0]
 
 ### Added
 
@@ -17,3 +17,6 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 - Dependency `com.leakyabstractions:result-lazy:1.0.0.0`
 - Dependency `com.leakyabstractions:result-micronaut-serde:1.0.0.0`
 - Dependency `com.leakyabstractions:result:1.0.0.0`
+
+
+[1.0.0.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.0.0
