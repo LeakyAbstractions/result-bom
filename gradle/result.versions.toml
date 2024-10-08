@@ -3,7 +3,7 @@ result-api     = "1.0.0.0"
 result-assertj = "1.0.0.0"
 result-core    = "1.0.0.0"
 result-jackson = "1.0.1.0"
-result-mnserde = "1.0.0.0"
+result-mnserde = "1.0.0.1"
 result-lazy    = "1.0.0.0"
 
 [libraries]
