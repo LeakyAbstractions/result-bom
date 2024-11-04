@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spec/1.0.0.0.html).
 
 
-## [Unreleased]
+## [1.0.1.3]
 
 - Bump **result-micronaut-serde** from 1.0.0.1 to 1.0.0.2.
 
@@ -45,8 +45,8 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 - Dependency `com.leakyabstractions:result:1.0.0.0`
 
 
-[Unreleased]: https://github.com/LeakyAbstractions/result-bom/compare/main...develop
 [1.0.0.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.0.0
 [1.0.1.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.1.0
 [1.0.1.1]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.1.1
 [1.0.1.2]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.1.2
+[1.0.1.3]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.1.3
