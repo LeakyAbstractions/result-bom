@@ -9,7 +9,7 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 
 ## [Unreleased]
 
-No unreleased changes.
+- Bump **result-micronaut-serde** from 1.0.0.1 to 1.0.0.2.
 
 
 ## [1.0.1.2]
