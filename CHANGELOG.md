@@ -9,7 +9,7 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 
 ## [Unreleased]
 
-No unreleased changes.
+- Bump **result-assertj** from 1.0.0.0 to 1.0.1.0.
 
 
 ## [1.0.1.4]
