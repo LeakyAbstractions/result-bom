@@ -9,7 +9,9 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 
 ## [Unreleased]
 
-No unreleased changes.
+- Bump **result-assertj** from 1.0.1.0 to 1.0.1.1.
+- Bump **result-jackson** from 1.0.1.2 to 1.0.1.3.
+- Bump **result-micronaut-serde** from 1.0.0.2 to 1.0.1.0.
 
 
 ## [1.0.2.0]
