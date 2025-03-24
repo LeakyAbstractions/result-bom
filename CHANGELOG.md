@@ -14,6 +14,8 @@ No unreleased changes.
 
 ## [1.0.2.0]
 
+### Changed
+
 - Bump **result-assertj** from 1.0.0.0 to 1.0.1.0.
 
 
@@ -25,6 +27,8 @@ No unreleased changes.
 
 
 ## [1.0.1.3]
+
+### Changed
 
 - Bump **result-micronaut-serde** from 1.0.0.1 to 1.0.0.2.
 
