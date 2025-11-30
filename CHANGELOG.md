@@ -9,7 +9,14 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 
 ## [1.1.0.0]
 
-No unreleased changes.
+### Changed
+
+- Bump **result-api** from 1.0.0.0 to 1.0.1.0.
+- Bump **result-assertj** from 1.0.1.1 to 1.1.0.0.
+- Bump **result-core** from 1.0.0.0 to 1.0.1.0.
+- Bump **result-jackson** from 1.0.3.0 to 1.1.0.0.
+- Bump **result-mnserde** from 1.0.1.0 to 1.0.2.0.
+- Bump **result-lazy** from 1.0.0.0 to 1.0.1.0.
 
 
 ## [1.0.4.0]
