@@ -7,9 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spec/1.0.0.0.html).
 
 
-## [Unreleased]
+## [1.1.0.0]
 
-No unreleased changes.
+### Changed
+
+- Bump **result-api** from 1.0.0.0 to 1.0.1.0.
+- Bump **result-assertj** from 1.0.1.1 to 1.1.0.0.
+- Bump **result-core** from 1.0.0.0 to 1.0.1.0.
+- Bump **result-jackson** from 1.0.3.0 to 1.1.0.0.
+- Bump **result-mnserde** from 1.0.1.0 to 1.0.2.0.
+- Bump **result-lazy** from 1.0.0.0 to 1.0.1.0.
 
 
 ## [1.0.4.0]
@@ -82,7 +89,6 @@ No unreleased changes.
 - Dependency `com.leakyabstractions:result:1.0.0.0`
 
 
-[Unreleased]: https://github.com/LeakyAbstractions/result-bom/compare/main...develop
 [1.0.0.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.0.0
 [1.0.1.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.1.0
 [1.0.1.1]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.1.1
@@ -92,3 +98,4 @@ No unreleased changes.
 [1.0.2.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.2.0
 [1.0.3.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.3.0
 [1.0.4.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.0.4.0
+[1.1.0.0]: https://github.com/LeakyAbstractions/result-bom/releases/tag/1.1.0.0
