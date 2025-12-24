@@ -48,6 +48,7 @@ dependencies {
     // Define dependencies without version numbers
     implementation 'com.leakyabstractions:result'
     implementation 'com.leakyabstractions:result-jackson'
+    implementation 'com.leakyabstractions:result-jackson3'
     implementation 'com.leakyabstractions:result-lazy'
     testImplementation 'com.leakyabstractions:result-assertj'
 }
