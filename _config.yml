@@ -1,7 +1,7 @@
 theme: jekyll-theme-leap-day
 title: Result Library BOM
 description: Bill of Materials for Result libraries
-current_version: 1.1.0.0
+current_version: 1.2.0.0
 show_downloads: true
 logo: https://dev.leakyabstractions.com/result/result-banner.png
 exclude:
