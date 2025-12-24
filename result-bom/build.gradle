@@ -10,6 +10,7 @@ dependencies {
         api libs.result.core
         api libs.result.assertj
         api libs.result.jackson
+        api libs.result.jackson3
         api libs.result.mnserde
         api libs.result.lazy
     }
@@ -68,12 +69,13 @@ publishing {
                     connection  = rootProject.checkout
                 }
                 properties = [
-                    "result.api.version":     libs.versions.result.api.get(),
-                    "result.core.version":    libs.versions.result.core.get(),
-                    "result.assertj.version": libs.versions.result.assertj.get(),
-                    "result.jackson.version": libs.versions.result.jackson.get(),
-                    "result.mnserde.version": libs.versions.result.mnserde.get(),
-                    "result.lazy.version":    libs.versions.result.lazy.get(),
+                    "result.api.version":      libs.versions.result.api.get(),
+                    "result.core.version":     libs.versions.result.core.get(),
+                    "result.assertj.version":  libs.versions.result.assertj.get(),
+                    "result.jackson.version":  libs.versions.result.jackson.get(),
+                    "result.jackson3.version": libs.versions.result.jackson3.get(),
+                    "result.mnserde.version":  libs.versions.result.mnserde.get(),
+                    "result.lazy.version":     libs.versions.result.lazy.get(),
                 ]
             }
             from(components.javaPlatform)

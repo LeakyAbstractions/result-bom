@@ -9,7 +9,9 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 
 ## [Unreleased]
 
-No unreleased changes.
+### Fixed
+
+- Dependency **result-jackson3**
 
 
 ## [1.2.0.0]
