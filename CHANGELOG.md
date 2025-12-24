@@ -13,6 +13,10 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 
 - Bump **result-core** from 1.0.1.0 to 1.0.2.0.
 
+### Added
+
+- Dependency `com.leakyabstractions:result-jackson3:1.0.0.0`
+
 
 ## [1.1.0.0]
 

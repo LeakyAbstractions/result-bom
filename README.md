@@ -17,6 +17,7 @@ project, you can use this BOM POM to get a full set of consistent versions to us
 - [![result-api][BADGE_RESULT_API]][RESULT_API]
 - [![result-assertj][BADGE_RESULT_ASSERTJ]][RESULT_ASSERTJ]
 - [![result-jackson][BADGE_RESULT_JACKSON]][RESULT_JACKSON]
+- [![result-jackson3][BADGE_RESULT_JACKSON3]][RESULT_JACKSON3]
 - [![result-lazy][BADGE_RESULT_LAZY]][RESULT_LAZY]
 - [![result-mnserde][BADGE_RESULT_MNSERDE]][RESULT_MNSERDE]
 
@@ -113,6 +114,7 @@ See the License for the specific language governing permissions and limitations 
 [BADGE_RESULT_ASSERTJ]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-assertj/badge.json&logo=0
 [BADGE_RESULT_CORE]:            https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result/badge.json&logo=0
 [BADGE_RESULT_JACKSON]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-jackson/badge.json&logo=0
+[BADGE_RESULT_JACKSON3]:        https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-jackson3/badge.json&logo=0
 [BADGE_RESULT_LAZY]:            https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-lazy/badge.json&logo=0
 [BADGE_RESULT_MNSERDE]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-micronaut-serde/badge.json&logo=0
 [BENCHMARK]:                    https://dev.leakyabstractions.com/result-benchmark/
@@ -134,6 +136,7 @@ See the License for the specific language governing permissions and limitations 
 [RESULT_ASSERTJ]:               https://github.com/LeakyAbstractions/result-assertj/
 [RESULT_CORE]:                  https://github.com/LeakyAbstractions/result/
 [RESULT_JACKSON]:               https://github.com/LeakyAbstractions/result-jackson/
+[RESULT_JACKSON3]:              https://github.com/LeakyAbstractions/result-jackson3/
 [RESULT_LAZY]:                  https://github.com/LeakyAbstractions/result-lazy/
 [RESULT_MNSERDE]:               https://github.com/LeakyAbstractions/result-micronaut-serde/
 [SUPPORT]:                      https://github.com/LeakyAbstractions/.github/blob/main/SUPPORT.md

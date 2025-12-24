@@ -1,15 +1,17 @@
 [versions]
-result-api     = "1.0.1.0"
-result-assertj = "1.1.0.0"
-result-core    = "1.0.2.0"
-result-jackson = "1.1.0.0"
-result-mnserde = "1.0.2.0"
-result-lazy    = "1.0.1.0"
+result-api      = "1.0.1.0"
+result-assertj  = "1.1.0.0"
+result-core     = "1.0.2.0"
+result-jackson  = "1.1.0.0"
+result-jackson3 = "1.0.0.0"
+result-mnserde  = "1.0.2.0"
+result-lazy     = "1.0.1.0"
 
 [libraries]
-result-api     = { module = "com.leakyabstractions:result-api",             version.ref = "result-api"     }
-result-assertj = { module = "com.leakyabstractions:result-assertj",         version.ref = "result-assertj" }
-result-core    = { module = "com.leakyabstractions:result",                 version.ref = "result-core"    }
-result-jackson = { module = "com.leakyabstractions:result-jackson",         version.ref = "result-jackson" }
-result-mnserde = { module = "com.leakyabstractions:result-micronaut-serde", version.ref = "result-mnserde" }
-result-lazy    = { module = "com.leakyabstractions:result-lazy",            version.ref = "result-lazy"    }
+result-api      = { module = "com.leakyabstractions:result-api",             version.ref = "result-api"      }
+result-assertj  = { module = "com.leakyabstractions:result-assertj",         version.ref = "result-assertj"  }
+result-core     = { module = "com.leakyabstractions:result",                 version.ref = "result-core"     }
+result-jackson  = { module = "com.leakyabstractions:result-jackson",         version.ref = "result-jackson"  }
+result-jackson3 = { module = "com.leakyabstractions:result-jackson3",        version.ref = "result-jackson3" }
+result-mnserde  = { module = "com.leakyabstractions:result-micronaut-serde", version.ref = "result-mnserde"  }
+result-lazy     = { module = "com.leakyabstractions:result-lazy",            version.ref = "result-lazy"     }
