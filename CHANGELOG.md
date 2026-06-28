@@ -9,7 +9,10 @@ and this project adheres to [Pragmatic Versioning](https://pragver.github.io/spe
 
 ## [Unreleased]
 
-No unreleased changes.
+### Changed
+
+- Bump **result-jackson3** from 1.0.0.0 to 1.0.1.0.
+- Bump **result-mnserde** from 1.0.2.0 to 1.1.0.0.
 
 
 ## [1.2.0.1]

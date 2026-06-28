@@ -22,7 +22,7 @@ jobs:
     # SHALLOW CLONE
     # ================================
     - name: Shallow clone
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     # ================================
     # SET UP JDK
@@ -38,4 +38,4 @@ jobs:
     # SUBMIT DEPENDENCIES
     # ================================
     - name: Generate and submit dependency graph
-      uses: gradle/actions/dependency-submission@v5
+      uses: gradle/actions/dependency-submission@v6
