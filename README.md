@@ -108,7 +108,7 @@ See the License for the specific language governing permissions and limitations 
 [BADGE_ARTIFACTS]:              https://img.shields.io/maven-central/v/com.leakyabstractions/result-bom
 [BADGE_BENCHMARK]:              https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-benchmark/badge.json&style=flat
 [BADGE_BEST_PRACTICES]:         https://www.bestpractices.dev/projects/8122/badge
-[BADGE_BUILD_STATUS]:           https://github.com/leakyabstractions/result-bom/workflows/Build/badge.svg
+[BADGE_BUILD_STATUS]:           https://github.com/leakyabstractions/result-bom/workflows/Build/badge.svg?branch=develop
 [BADGE_GUIDE_BOOK]:             https://img.shields.io/badge/Free_book-444?logo=leanpub
 [BADGE_RESULT_API]:             https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-api/badge.json&logo=0
 [BADGE_RESULT_ASSERTJ]:         https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-assertj/badge.json&logo=0
